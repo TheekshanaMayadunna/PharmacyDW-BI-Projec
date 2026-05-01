@@ -162,7 +162,7 @@ See [`scripts/setup.md`](scripts/setup.md) for full environment setup instructio
 
 ---
 
-## 📄 Assignment Reports
+## 📄 Reports
 
-- [Assignment 1 Report](docs/assignment1/) — Dataset selection, architecture, DW design, ETL development
-- [Assignment 2 Report](docs/assignment2/) — SSAS cube, OLAP operations in Excel, Power BI reports
+- [SSIS PDF](docs/assignment1/IT23584068.pdf)
+- [SSAS PDF](docs/assignment2/IT23584068_Assignement_02.pdf)
