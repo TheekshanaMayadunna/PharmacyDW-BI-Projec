@@ -1,11 +1,5 @@
 # 🏥 PharmacyDW — Data Warehouse & Business Intelligence Project
 
-**Student:** MAYADUNNA S M M T S — IT23584068  
-**Module:** IT3021 Data Warehousing and Business Intelligence  
-**Institution:** Sri Lanka Institute of Information Technology (SLIIT)  
-**Year / Semester:** Year 03, Semester 01 — WE 01.01
-
----
 
 ## 📌 Project Overview
 
@@ -162,7 +156,3 @@ See [`scripts/setup.md`](scripts/setup.md) for full environment setup instructio
 
 ---
 
-## 📄 Reports
-
-- [SSIS PDF](docs/assignment1/IT23584068.pdf)
-- [SSAS PDF](docs/assignment2/IT23584068_Assignement_02.pdf)
