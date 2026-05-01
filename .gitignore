@@ -1,0 +1,33 @@
+# ── SQL Server ────────────────────────────────────────────────
+*.mdf
+*.ldf
+*.bak
+
+# ── SSIS / Visual Studio ──────────────────────────────────────
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.dtproj.user
+
+# ── Power BI ──────────────────────────────────────────────────
+# Uncomment below if you do NOT want to track the .pbix file
+# *.pbix
+
+# ── Excel (temp files) ────────────────────────────────────────
+~$*.xlsx
+~$*.xls
+
+# ── Data files (large raw data — use Git LFS or exclude) ──────
+data/source-files/*.csv
+data/source-files/*.txt
+data/source-files/*.xlsx
+# To track them, comment the 3 lines above and run:
+#   git lfs track "*.csv"
+#   git lfs track "*.xlsx"
+
+# ── OS files ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,266 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3ed111f5-9627-466b-9db1-a77bcaf8dac0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Medicine</ID>
+  <Name>Dim Medicine</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2647" scrolltop="-2752" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8805" y="9250" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimMedicine" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3471" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008f0d0000a30e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimMedicine" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2647</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2752</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="9f0f8f1b-cd66-4a4d-bdf1-a57c0863a111">
+    <DataSourceViewID>PharmacyDW_DSV</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="46f853d3-89b5-47c4-a996-c9ffb7fd1243">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="2c83c3c6-f4fc-4486-9d23-7ad83c16d18d">
+      <ID>Medicine Key</ID>
+      <Name>Medicine Key</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3077965e-cc03-4e17-9e05-97aceb938738">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e32a0b8a-6b5e-49c8-ad1a-f614ec18c05f">
+            <TableID>dbo_DimMedicine</TableID>
+            <ColumnID>MedicineKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="0fa23a7b-9855-47da-b058-f6363f8302eb">
+          <AttributeID>Medicine ID</AttributeID>
+          <Name>Medicine ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3522dba1-6b55-4791-9dc7-21df0a55873e">
+          <AttributeID>Medicine Name</AttributeID>
+          <Name>Medicine Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="14fc5b78-9290-4f45-a21b-4fcf11c45e85">
+          <AttributeID>Generic Name</AttributeID>
+          <Name>Generic Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="261a8d3f-7b8a-4761-b227-8ded92fb62af">
+          <AttributeID>Medicine Category</AttributeID>
+          <Name>Medicine Category</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5ee654b6-c8a5-4b51-a0f1-7ecbff43121c">
+          <AttributeID>Dosage Form</AttributeID>
+          <Name>Dosage Form</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="299ff259-ff69-44a3-9a09-be127d8e3350">
+          <AttributeID>Strength Mg</AttributeID>
+          <Name>Strength Mg</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="14913bbc-2ef7-46b0-8057-16e81f58022f">
+          <AttributeID>Pack Size</AttributeID>
+          <Name>Pack Size</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8c43e27b-c268-4b68-93f0-c903efa75aee">
+      <ID>Medicine ID</ID>
+      <Name>Medicine ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="62daf1f2-cef9-4c4c-be28-795c0f9e4416">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="67ad543d-52e4-4ab7-a866-6f109aba9372">
+            <TableID>dbo_DimMedicine</TableID>
+            <ColumnID>MedicineID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cf1a3b0e-a7b3-4b55-8c5c-813a50119f38">
+      <ID>Medicine Name</ID>
+      <Name>Medicine Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="83a9d34f-5707-4123-98d0-5df3603b4e4d">
+          <DataType>WChar</DataType>
+          <DataSize>150</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="00446c96-ada0-4889-bb5d-b73285ffa1c2">
+            <TableID>dbo_DimMedicine</TableID>
+            <ColumnID>MedicineName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0802241d-6459-4278-af94-25b4b902f866">
+      <ID>Generic Name</ID>
+      <Name>Generic Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="be5782ed-28b3-49d3-8f7c-4d2ead37b261">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8a7c5889-6d85-48e8-9ca8-5a43bcb35a30">
+            <TableID>dbo_DimMedicine</TableID>
+            <ColumnID>GenericName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="814f491c-3137-4307-9711-a339d3079f5a">
+      <ID>Medicine Category</ID>
+      <Name>Medicine Category</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="71b9fd8a-623b-421e-a96f-fcf30fb188b1">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="77a112da-a327-4143-a929-4617967d96ed">
+            <TableID>dbo_DimMedicine</TableID>
+            <ColumnID>MedicineCategory</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2efab981-6e59-478c-a69f-005d2bf185b3">
+      <ID>Dosage Form</ID>
+      <Name>Dosage Form</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d21b648c-52a9-46a5-9b64-57f818614d4c">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e74739da-dd65-47b8-834c-e91d21a27415">
+            <TableID>dbo_DimMedicine</TableID>
+            <ColumnID>DosageForm</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0feca0d5-4b02-41e6-aa8c-e465408f1ed6">
+      <ID>Strength Mg</ID>
+      <Name>Strength Mg</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3cab36c7-db36-4266-8c61-f8c879cd3051">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="62cda1dc-aeaa-425b-8987-357df17e2701">
+            <TableID>dbo_DimMedicine</TableID>
+            <ColumnID>StrengthMg</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9195d5b2-d158-4e3b-a60a-fe189a7d8988">
+      <ID>Pack Size</ID>
+      <Name>Pack Size</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d587d6b5-7595-47b5-b3b0-0043940c78ea">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f4d2b525-24c5-4a40-a159-2e6bdfd72602">
+            <TableID>dbo_DimMedicine</TableID>
+            <ColumnID>PackSize</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="c3c4b02f-6426-47b9-8995-022a8bc2f71d">
+      <ID>Hierarchy</ID>
+      <Name>Product Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="c3d567a0-49b1-4d93-bfb8-b1fcae28063d">
+          <ID>Medicine Category</ID>
+          <Name>Medicine Category</Name>
+          <SourceAttributeID>Medicine Category</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="aace4f01-4b25-4b06-86fe-8a41e328578a">
+          <ID>Medicine Name</ID>
+          <Name>Medicine Name</Name>
+          <SourceAttributeID>Medicine Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
